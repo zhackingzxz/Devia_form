@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+    --bacground-color:rgb(14, 16, 18);
+    --bacground-color1:aliceblue;
+    --bacground-color2:rgb(187, 5, 5);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    background-repeat: no-repeat;
+        background: linear-gradient(to bottom right ,purple,rgb(185, 125, 185),blue,cyan);
+}
+.container{
+ padding: 60px 50px;
+    background-color: var(--bacground-color);
+    color:var(--bacground-color1);
+display: flex;
+align-items: center;
+justify-content: center;
+
+  
+
+
+}
+img{
+    width: 80%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(devia.jpg);
+    
+}
+
+
+.main{
+    border-radius: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+label{
+    font-size: 27px;
+}
+
+h2{
+  margin-bottom: 10px;
+    font-size: 50px;
+    color: var(--bacground-color2);
+}
+.titre p{
+    margin-bottom: 30px;
+    font-size: 20px;
+
+
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+button{
+   margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.confirmb{
+    background-color: var(--bacground-color);
+    color:var(--bacground-color2);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: var(--bacground-color1);
+}
+.google{
+    margin: 20px 0;
+    background-color: rgb(164, 164, 164);
+}
+.all{
+    text-align: center;
+    
+        font-size: 30px;
+        color: gray;
+}
+a{
+    text-decoration: none;
+    color:var(--bacground-color2);
+}
+/* .logo{
+    height: 30px;
+    background-color: blue;
+} */
+ @media  screen and (min-width:720px) {
+    input{
+        padding: 10px;
+
+    }
+    form{
+        padding: 50px;
+        
+    }
+    button{
+        padding: 30px;
+    }
+ }
+ @media screen and (min-width:1280px) {
+    /* 
+    } */
+    .main{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+              max-width:2000px;
+        max-height:1000px;
+        
+    }
+    body{
+        padding: 50px;
+    }
+    .form{
+        width: 50%;
+  
+    }
+    .container{
+        width: 60%;
+       
+    }
+
+
+  
+}
+
+
+    
+ 
